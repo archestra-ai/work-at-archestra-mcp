@@ -1,0 +1,6 @@
+# Do not run dependency lifecycle scripts. Run `pnpm rebuild <package>` after
+# review when a package needs its build step.
+ignoreScripts: true
+
+# Install only versions published at least seven days ago (minutes).
+minimumReleaseAge: 10080
